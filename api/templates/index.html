@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1 {
+  font-family: verdana;
+  font-size: 200%;
+}
+p {
+  font-family: courier;
+  font-size: 100%;
+}
+body {
+  background-color: powderblue;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Scania APS Failure</h1>
+
+<p>Specify Input file path and path to Output Directory:</p>
+
+<form action="/predict" method="POST">
+<label> Specify Input File Path </label>
+  <input type="text" id="inFile" name="inFile">
+  <br>
+  <br>
+  <label> Specify Output Path </label>
+  <input type="text" id="outFile" name="outFile">
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
